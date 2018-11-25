@@ -9,10 +9,9 @@
    "race-result-race.csv" describes details the races while each entry of "race-result-horse.csv" corresponds to one horse in a race.
 
 # 2. Preprocessing
-   "preprocess.py" has three tasks: 
-   
-   a) remove data without final racing rank, 
-   b) calculate average rank of the past six races for the jockeys and horses, and 
+   "preprocess.py" has three tasks:  
+   a) remove data without final racing rank,  
+   b) calculate average rank of the past six races for the jockeys and horses   
    c) split the dataset into training data and testing data.
    
    Training data is used to train the models and testing data is used to test the models.
