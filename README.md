@@ -10,19 +10,25 @@
 
 # 2. Preprocessing
    "preprocess.py" has three tasks:  
-   a) remove data without final racing rank,  
+   a) remove data without final racing rank  
    b) calculate average rank of the past six races for the jockeys and horses   
-   c) split the dataset into training data and testing data.
+   c) split the dataset into training data and testing data   
    
    Training data is used to train the models and testing data is used to test the models.
    
 # 3. Classification
    "classification.py" determines if a particular horse in a race can win, get into top 3, and/or get into top 50%.
-   Four types of models are used: a) Logistic regression, b) Naive Bayes (Apart from the one in the sklearn.naive_bayes library, I also try to implement it myself in naive_bayes.py), c) Support Vector Machine (SVM), and d) Random forest.
+   Four types of models are used:  
+   a) Logistic regression   
+   b) Naive Bayes (Apart from the one in the sklearn.naive_bayes library, I also try to implement it myself in "naive_bayes.py")   
+   c) Support Vector Machine (SVM)   
+   d) Random forest
    
 # 4. Regression
    "regression.py" predicts the final finishing time of each horse in each race.
-   Two models are used: a) Support Vector Regression (SVR) and b) Gradient Boosting Regression Tree Model (GBRT).
+   Two models are used:  
+   a) Support Vector Regression (SVR)  
+   b) Gradient Boosting Regression Tree Model (GBRT)
    
    I also try to standardize the data before applying them to the models.
    
